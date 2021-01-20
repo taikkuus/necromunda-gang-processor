@@ -71,7 +71,7 @@ const Ganger = types
         formattedString += '\n';
         formattedString += bolded(colored('Gear', Color.Blue));
         formattedString += '\n';
-        self.equipment.map((eq) => {
+        self.equipment.forEach((eq) => {
           formattedString += `${eq.qty}x ${eq.name}\n`;
         });
       }

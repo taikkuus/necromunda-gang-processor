@@ -11,10 +11,14 @@
 
 import { Button, Grid, TextField } from '@material-ui/core';
 import { clipboard } from 'electron';
+import { Instance } from 'mobx-state-tree';
 import React from 'react';
 import Ganger from './Models/Ganger';
 
-const GangerDisplay = ({ ganger }) => {
+type GangerDisplayProps = {
+  ganger: Instance<typeof Ganger>;
+};
+const GangerDisplay = ({ ganger }: GangerDisplayProps) => {
   const copyText = () => {
     clipboard.writeText(ganger.bbcode);
   };

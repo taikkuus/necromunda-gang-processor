@@ -15,16 +15,20 @@ import {
   MenuItem,
   ListItemText,
   ListItemIcon,
-  Button,
   Grid,
 } from '@material-ui/core';
 import { Close } from '@material-ui/icons';
+import { Instance } from 'mobx-state-tree';
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import GangerDisplay from './GangerDisplay';
 import Gang from './Models/Gang';
+import Ganger from './Models/Ganger';
 
-const GangDisplay = ({ gang }) => {
+type GangDisplayProps = {
+  gang: Instance<typeof Gang>;
+};
+
+const GangDisplay = ({ gang }: GangDisplayProps) => {
   const [selectedGanger, setSelectedGanger] = useState(0);
 
   if (gang === undefined) {
@@ -41,25 +45,24 @@ const GangDisplay = ({ gang }) => {
           onChange={(e) => setSelectedGanger(Number(e.target.value))}
           variant="outlined"
         >
-          {gang.gangers.map((ganger, idx) => {
+          {gang.gangers.map((ganger: Instance<typeof Ganger>, idx: number) => {
             if (ganger.isDead) {
               return (
-                <MenuItem value={idx} key={idx} divider>
+                <MenuItem value={idx} key={ganger.ganger_id} divider>
                   <ListItemText primary={ganger.displayName} secondary="Dead" />
                 </MenuItem>
               );
-            } else {
-              return (
-                <MenuItem value={idx} key={idx} divider>
-                  <ListItemText primary={ganger.displayName} />
-                  {ganger.isDead && (
-                    <ListItemIcon>
-                      <Close />
-                    </ListItemIcon>
-                  )}
-                </MenuItem>
-              );
             }
+            return (
+              <MenuItem value={idx} key={ganger.ganger_id} divider>
+                <ListItemText primary={ganger.displayName} />
+                {ganger.isDead && (
+                  <ListItemIcon>
+                    <Close />
+                  </ListItemIcon>
+                )}
+              </MenuItem>
+            );
           })}
         </Select>
       </FormControl>

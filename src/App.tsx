@@ -1,10 +1,5 @@
-import {
-  Button,
-  Grid,
-  makeStyles,
-  TextField,
-  useTheme,
-} from '@material-ui/core';
+import { Button, Grid, TextField } from '@material-ui/core';
+import { Instance } from 'mobx-state-tree';
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import GangDisplay from './GangDisplay';
@@ -12,21 +7,18 @@ import Gang from './Models/Gang';
 
 const Hello = () => {
   const [gangId, setGangId] = useState(157849);
-  const [gang, setGang] = useState<typeof Gang | undefined>(undefined);
+  const [gang, setGang] = useState<Instance<typeof Gang> | undefined>(
+    undefined
+  );
 
   const getGang = async () => {
-    const response = await fetch(
-      `https://yaktribe.games/underhive/json/gang/${gangId}.json`,
-      {
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      }
-    )
+    await fetch(`https://yaktribe.games/underhive/json/gang/${gangId}.json`, {
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    })
       .then((response) => response.json())
-      .then((json) => {
-        setGang(Gang.create(json.gang));
-      })
+      .then((json) => setGang(Gang.create(json.gang)))
       .catch((error) => console.error(error));
   };
 
@@ -47,7 +39,7 @@ const Hello = () => {
           </Button>
         </Grid>
       </Grid>
-      <Grid item spacing={2}>
+      <Grid container item spacing={2}>
         {gang && <GangDisplay gang={gang} />}
       </Grid>
     </Grid>
