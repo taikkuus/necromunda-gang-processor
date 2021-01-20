@@ -1,0 +1,2924 @@
+{
+  "SaveName": "Max's Marauders",
+  "GameMode": "Necromunda: Nurgle Cult",
+  "Date": "1/20/2021 5:28:39 PM",
+  "Gravity": 0.5,
+  "PlayArea": 0.5,
+  "GameType": "",
+  "GameComplexity": "",
+  "Tags": [],
+  "Table": "Table_RPG",
+  "Sky": "Sky_Museum",
+  "Note": "",
+  "Rules": "",
+  "MusicPlayer": {
+    "RepeatSong": true,
+    "PlaylistEntry": -1,
+    "CurrentAudioTitle": "music",
+    "CurrentAudioURL": "http://cloud-3.steamusercontent.com/ugc/771727500521180189/DACFE7DAB0160C3D1588AB09A8A15F62F38AC352/",
+    "AudioLibrary": []
+  },
+  "Grid": {
+    "Type": 0,
+    "Lines": false,
+    "Color": {
+      "r": 0.0,
+      "g": 0.0,
+      "b": 0.0
+    },
+    "Opacity": 0.75,
+    "ThickLines": false,
+    "Snapping": false,
+    "Offset": false,
+    "BothSnapping": false,
+    "xSize": 0.5,
+    "ySize": 0.5,
+    "PosOffset": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "Lighting": {
+    "LightIntensity": 0.54,
+    "LightColor": {
+      "r": 1.0,
+      "g": 0.9804,
+      "b": 0.8902
+    },
+    "AmbientIntensity": 1.3,
+    "AmbientType": 0,
+    "AmbientSkyColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientEquatorColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "AmbientGroundColor": {
+      "r": 0.5,
+      "g": 0.5,
+      "b": 0.5
+    },
+    "ReflectionIntensity": 1.0,
+    "LutIndex": 0,
+    "LutContribution": 1.0
+  },
+  "Hands": {
+    "Enable": true,
+    "DisableUnused": false,
+    "Hiding": 0,
+    "HandTransforms": [
+      {
+        "Color": "Red",
+        "Transform": {
+          "posX": -15.1108065,
+          "posY": 4.81034231,
+          "posZ": -20.1076221,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7734032,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Yellow",
+        "Transform": {
+          "posX": -30.2150211,
+          "posY": 4.81034231,
+          "posZ": 10.17524,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6650314,
+          "scaleY": 9.174497,
+          "scaleZ": 4.925351
+        }
+      },
+      {
+        "Color": "Purple",
+        "Transform": {
+          "posX": 30.25128,
+          "posY": 4.81034231,
+          "posZ": 9.59069252,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6650248,
+          "scaleY": 9.174497,
+          "scaleZ": 4.925351
+        }
+      },
+      {
+        "Color": "Blue",
+        "Transform": {
+          "posX": 15.4749184,
+          "posY": 4.81034231,
+          "posZ": 19.8365288,
+          "rotX": 0.0,
+          "rotY": 179.8,
+          "rotZ": 0.0,
+          "scaleX": 11.7831421,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87719965
+        }
+      },
+      {
+        "Color": "White",
+        "Transform": {
+          "posX": 15.1961479,
+          "posY": 4.81034231,
+          "posZ": -20.1400986,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "scaleX": 11.7733841,
+          "scaleY": 9.17449951,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Green",
+        "Transform": {
+          "posX": -15.1927767,
+          "posY": 4.81034231,
+          "posZ": 19.787817,
+          "rotX": 0.0,
+          "rotY": 180.000381,
+          "rotZ": 0.0,
+          "scaleX": 11.7733841,
+          "scaleY": 9.174497,
+          "scaleZ": 4.87123871
+        }
+      },
+      {
+        "Color": "Pink",
+        "Transform": {
+          "posX": 30.10358,
+          "posY": 4.81034231,
+          "posZ": -8.449126,
+          "rotX": 0.0,
+          "rotY": 270.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6650248,
+          "scaleY": 9.174497,
+          "scaleZ": 4.925351
+        }
+      },
+      {
+        "Color": "Orange",
+        "Transform": {
+          "posX": -30.247818,
+          "posY": 4.81034231,
+          "posZ": -8.822588,
+          "rotX": 0.0,
+          "rotY": 90.0,
+          "rotZ": 0.0,
+          "scaleX": 11.6650372,
+          "scaleY": 9.174497,
+          "scaleZ": 4.925351
+        }
+      }
+    ]
+  },
+  "Turns": {
+    "Enable": false,
+    "Type": 0,
+    "TurnOrder": [],
+    "Reverse": false,
+    "SkipEmpty": false,
+    "DisableInteractions": false,
+    "PassTurns": true,
+    "TurnColor": ""
+  },
+  "TabStates": {
+    "0": {
+      "title": "Rules",
+      "body": "",
+      "color": "Grey",
+      "visibleColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5
+      },
+      "id": 0
+    },
+    "1": {
+      "title": "White",
+      "body": "",
+      "color": "White",
+      "visibleColor": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "id": 1
+    },
+    "2": {
+      "title": "Brown",
+      "body": "",
+      "color": "Brown",
+      "visibleColor": {
+        "r": 0.443,
+        "g": 0.231,
+        "b": 0.09
+      },
+      "id": 2
+    },
+    "3": {
+      "title": "Red",
+      "body": "",
+      "color": "Red",
+      "visibleColor": {
+        "r": 0.856,
+        "g": 0.1,
+        "b": 0.094
+      },
+      "id": 3
+    },
+    "4": {
+      "title": "Orange",
+      "body": "",
+      "color": "Orange",
+      "visibleColor": {
+        "r": 0.956,
+        "g": 0.392,
+        "b": 0.113
+      },
+      "id": 4
+    },
+    "5": {
+      "title": "Yellow",
+      "body": "",
+      "color": "Yellow",
+      "visibleColor": {
+        "r": 0.905,
+        "g": 0.898,
+        "b": 0.172
+      },
+      "id": 5
+    },
+    "6": {
+      "title": "Green",
+      "body": "",
+      "color": "Green",
+      "visibleColor": {
+        "r": 0.192,
+        "g": 0.701,
+        "b": 0.168
+      },
+      "id": 6
+    },
+    "7": {
+      "title": "Blue",
+      "body": "",
+      "color": "Blue",
+      "visibleColor": {
+        "r": 0.118,
+        "g": 0.53,
+        "b": 1.0
+      },
+      "id": 7
+    },
+    "8": {
+      "title": "Teal",
+      "body": "",
+      "color": "Teal",
+      "visibleColor": {
+        "r": 0.129,
+        "g": 0.694,
+        "b": 0.607
+      },
+      "id": 8
+    },
+    "9": {
+      "title": "Purple",
+      "body": "",
+      "color": "Purple",
+      "visibleColor": {
+        "r": 0.627,
+        "g": 0.125,
+        "b": 0.941
+      },
+      "id": 9
+    },
+    "10": {
+      "title": "Pink",
+      "body": "",
+      "color": "Pink",
+      "visibleColor": {
+        "r": 0.96,
+        "g": 0.439,
+        "b": 0.807
+      },
+      "id": 10
+    },
+    "11": {
+      "title": "Black",
+      "body": "",
+      "color": "Black",
+      "visibleColor": {
+        "r": 0.25,
+        "g": 0.25,
+        "b": 0.25
+      },
+      "id": 11
+    }
+  },
+  "DecalPallet": [],
+  "ObjectStates": [
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -5.110089,
+        "posY": 4.84157658,
+        "posZ": -42.0167,
+        "rotX": -0.000100840371,
+        "rotY": 102.710388,
+        "rotZ": 5.88751827E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Cherub Alpha II",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 5   [b]WS[/b]: 4+  [b]BS[/b]: 0+   [b]S[/b]: 2\n[b]T[/b]: 2      [b]W[/b]: 1       [b]I[/b]: 2+    [b]A[/b]: 1\n[b]Ld[/b]: 7+  [b]Cl[/b]: 7+ [b]Wil[/b]: 6+  [b]Int[/b]: 7+\n",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1291920185736514635/CED9FE272662E03CB4E39952A4D7AFAB7139A23A/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1291920185736495509/1F4EF5E1A056746D8BD6540C487A3511883ECBE7/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1291920185731704421/A9773813551FE7E33011FD47438D552035A24C57/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "c51a6b"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 6.37689,
+        "posY": 4.841599,
+        "posZ": -42.2150726,
+        "rotX": 8.507226E-05,
+        "rotY": -1.70746421E-06,
+        "rotZ": 0.000111967747,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Cherub Beta",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 5   [b]WS[/b]: 4+  [b]BS[/b]: 0+   [b]S[/b]: 2\n[b]T[/b]: 2      [b]W[/b]: 1       [b]I[/b]: 2+    [b]A[/b]: 1\n[b]Ld[/b]: 7+  [b]Cl[/b]: 7+ [b]Wil[/b]: 6+  [b]Int[/b]: 7+\n",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1291920185736515653/B0194B50C921E13F2F5426808269FC4FE5CC1060/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1291920185736495509/1F4EF5E1A056746D8BD6540C487A3511883ECBE7/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/1291920185731704421/A9773813551FE7E33011FD47438D552035A24C57/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "ab0786"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 11.0854425,
+        "posY": 4.9913516,
+        "posZ": -42.6309738,
+        "rotX": -7.0756425E-05,
+        "rotY": 179.843582,
+        "rotZ": 179.999878,
+        "scaleX": 1.0,
+        "scaleY": 0.92,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Waku-Tah",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 4   [b]WS[/b]: 3+  [b]BS[/b]: 2+   [b]S[/b]: 4\n[b]T[/b]: 3      [b]W[/b]: 1       [b]I[/b]: 3+    [b]A[/b]: 1\n[b]Ld[/b]: 4+  [b]Cl[/b]: 5+ [b]Wil[/b]: 7+  [b]Int[/b]: 6+\n\n[b][0000FF]Gear[-][/b]\n1x Armored undersuit\n1x Mesh Armor\n1x Blasting Charges\n1x Long Las\n1x Stun Grenades\n\n[b][008000]Skills[-][/b]\nInfiltrate",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/853844894594515136/9F6F3F83C20B982B2BFE48AB7695A7BAAB3AAE77/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/817810804110987609/830EEE243EBC9B0DF9A6765F350B6975DDBF4ABA/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/817810804116971320/3D7E5A1E952E547F0C2D36A342BD83F33ECB111A/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "d2303c"
+    },
+    {
+      "Name": "Custom_Tile",
+      "Transform": {
+        "posX": -1.253268,
+        "posY": 4.84157753,
+        "posZ": -37.95233,
+        "rotX": -8.08955956E-05,
+        "rotY": 180.008942,
+        "rotZ": -0.0001110943,
+        "scaleX": 2.92840672,
+        "scaleY": 1.0,
+        "scaleZ": 2.92840672
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/787497556138699676/70DAD2599B0E5D49D0BB5241F9F45FC11F578B98/",
+        "ImageSecondaryURL": "http://cloud-3.steamusercontent.com/ugc/787497556138699676/70DAD2599B0E5D49D0BB5241F9F45FC11F578B98/",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomTile": {
+          "Type": 0,
+          "Thickness": 0.1,
+          "Stackable": false,
+          "Stretch": true
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "fa3b84"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 6.525782,
+        "posY": 4.84160662,
+        "posZ": -47.4079056,
+        "rotX": -7.305323E-05,
+        "rotY": 180.000061,
+        "rotZ": -0.000107619257,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Mahei-Ru",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 4   [b]WS[/b]: 4+  [b]BS[/b]: 4+   [b]S[/b]: 3\n[b]T[/b]: 3      [b]W[/b]: 1       [b]I[/b]: 4+    [b]A[/b]: 1\n[b]Ld[/b]: 7+  [b]Cl[/b]: 5+ [b]Wil[/b]: 6+  [b]Int[/b]: 8+\n\n[b][0000FF]Gear[-][/b]\n1x Lasgun\n1x Hazard Suit\n",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/817810804110968027/789F3AFF690CA8D92D506D515DD4D4EE36D014ED/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/817810804110968251/D97202A38137A3E5291D53000BA0C185A4CB933F/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/817810804116971320/3D7E5A1E952E547F0C2D36A342BD83F33ECB111A/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "795848"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.987209857,
+        "posY": 4.841596,
+        "posZ": -47.46551,
+        "rotX": -8.073046E-05,
+        "rotY": 180.037186,
+        "rotZ": -0.000113647118,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Uta-Rah",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 4   [b]WS[/b]: 4+  [b]BS[/b]: 4+   [b]S[/b]: 3\n[b]T[/b]: 3      [b]W[/b]: 1       [b]I[/b]: 4+    [b]A[/b]: 1\n[b]Ld[/b]: 7+  [b]Cl[/b]: 5+ [b]Wil[/b]: 6+  [b]Int[/b]: 8+\n\n[b][0000FF]Gear[-][/b]\n1x Lasgun\n1x Hazard Suit\n",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/817810804110968027/789F3AFF690CA8D92D506D515DD4D4EE36D014ED/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/817810804110968251/D97202A38137A3E5291D53000BA0C185A4CB933F/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/817810804116971320/3D7E5A1E952E547F0C2D36A342BD83F33ECB111A/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "f136b4"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 16.1942177,
+        "posY": 4.84162569,
+        "posZ": -47.71419,
+        "rotX": -7.15405258E-05,
+        "rotY": 180.186432,
+        "rotZ": -0.000115957162,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Otumi-Raj",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 4   [b]WS[/b]: 4+  [b]BS[/b]: 4+   [b]S[/b]: 3\n[b]T[/b]: 3      [b]W[/b]: 1       [b]I[/b]: 4+    [b]A[/b]: 1\n[b]Ld[/b]: 7+  [b]Cl[/b]: 5+ [b]Wil[/b]: 6+  [b]Int[/b]: 8+\n\n[b][0000FF]Gear[-][/b]\n1x Lasgun\n1x Hazard Suit\n",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.0999994054,
+        "b": 0.09399941
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/817810804110968027/789F3AFF690CA8D92D506D515DD4D4EE36D014ED/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/817810804110968251/D97202A38137A3E5291D53000BA0C185A4CB933F/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/817810804116971320/3D7E5A1E952E547F0C2D36A342BD83F33ECB111A/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "1f6386"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 0.656395137,
+        "posY": 4.84158659,
+        "posZ": -42.34011,
+        "rotX": -9.541228E-05,
+        "rotY": 180.000061,
+        "rotZ": -0.000107195046,
+        "scaleX": 1.0,
+        "scaleY": 0.918074846,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Nesh-Tei",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 4\"  [b]WS[/b]: 3+  [b]BS[/b]: 2+   [b]S[/b]: 4\n[b]T[/b]: 3      [b]W[/b]: 1       [b]I[/b]: 3+    [b]A[/b]: 1\n[b]Ld[/b]: 4+  [b]Cl[/b]: 5+ [b]Wil[/b]: 7+  [b]Int[/b]: 6+\n[b][000080]Gear[-][/b]\n1x Grenade Launcher w/Frag+Krak\n1x Mesh Armor\n1x Psychic Familiar\n1x Grenade Launcher-Photon Flash\n[b][008000]Skills[-][/b]\nOverwatch",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1663483689476995632/3A976C523B31124DA72BC3CED4964F69815F311F/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1663483689476995713/54EC84C8A37401BCC32AF3471ACD0439B400E439/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/817810804116971320/3D7E5A1E952E547F0C2D36A342BD83F33ECB111A/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "6f3932"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.558535,
+        "posY": 4.84158468,
+        "posZ": -47.53385,
+        "rotX": -5.66615745E-05,
+        "rotY": 179.999954,
+        "rotZ": -0.00010583477,
+        "scaleX": 1.0,
+        "scaleY": 0.918074846,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Wuja-Shei",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 5   [b]WS[/b]: 3+  [b]BS[/b]: 6+   [b]S[/b]: 5\n[b]T[/b]: 4      [b]W[/b]: 2       [b]I[/b]: 5+    [b]A[/b]: 2\n[b]Ld[/b]: 9+  [b]Cl[/b]: 4+ [b]Wil[/b]: 5+  [b]Int[/b]: 10+\n\n[b][0000FF]Gear[-][/b]\n1x Fighting Knife\n1x Power Sword\n1x Mesh Armor\n\n[b][008000]Skills[-][/b]\nUnstoppable",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.5940765,
+        "g": 0.423572332,
+        "b": 0.311527222
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1663483689476995632/3A976C523B31124DA72BC3CED4964F69815F311F/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1663483689476995713/54EC84C8A37401BCC32AF3471ACD0439B400E439/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/817810804116971320/3D7E5A1E952E547F0C2D36A342BD83F33ECB111A/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "dbcc81"
+    },
+    {
+      "Name": "Deck",
+      "Transform": {
+        "posX": -8.643604,
+        "posY": 4.934704,
+        "posZ": -37.29914,
+        "rotX": -7.852752E-05,
+        "rotY": 180.030685,
+        "rotZ": -0.00011050082,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.713235259,
+        "g": 0.713235259,
+        "b": 0.713235259
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": true,
+      "Hands": false,
+      "SidewaysCard": false,
+      "DeckIDs": [
+        7311,
+        11218,
+        11413,
+        7309,
+        11215,
+        11243,
+        11242,
+        11405,
+        7308,
+        11233,
+        11246,
+        7347,
+        7327,
+        7348,
+        11209
+      ],
+      "CustomDeck": {
+        "73": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630465345/15CE39D1933E6961EF6C4E31757827696F39641B/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+          "NumWidth": 9,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        },
+        "112": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630464781/78F980C4FBBF2DC6E19D561D4B8414794D30A0E2/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+          "NumWidth": 9,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        },
+        "114": {
+          "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630464781/78F980C4FBBF2DC6E19D561D4B8414794D30A0E2/",
+          "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+          "NumWidth": 9,
+          "NumHeight": 7,
+          "BackIsHidden": false,
+          "UniqueBack": false,
+          "Type": 0
+        }
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "ContainedObjects": [
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.94158363,
+            "posY": 0.973556042,
+            "posZ": 13.60345,
+            "rotX": 0.0005100306,
+            "rotY": 179.9912,
+            "rotZ": -0.00325471722,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Lucky Shot",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 7311,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "73": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630465345/15CE39D1933E6961EF6C4E31757827696F39641B/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "ce1bcb"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -7.13748264,
+            "posY": 1.01979518,
+            "posZ": 13.37584,
+            "rotX": 0.06506927,
+            "rotY": 179.991135,
+            "rotZ": 359.910919,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Desperate Effort",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 11218,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "112": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630464781/78F980C4FBBF2DC6E19D561D4B8414794D30A0E2/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "eec7d3"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.85606146,
+            "posY": 1.055074,
+            "posZ": 13.2602663,
+            "rotX": 0.000664599,
+            "rotY": 179.9912,
+            "rotZ": -0.00189319451,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "...Click!",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 11413,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "114": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630464781/78F980C4FBBF2DC6E19D561D4B8414794D30A0E2/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "1e5317"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.92939329,
+            "posY": 1.06471908,
+            "posZ": 13.547081,
+            "rotX": -0.000157843591,
+            "rotY": 179.9912,
+            "rotZ": -0.00131623354,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Bait and Switch",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 7309,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "73": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630465345/15CE39D1933E6961EF6C4E31757827696F39641B/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "82ac8e"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.668551,
+            "posY": 1.07435644,
+            "posZ": 13.4372435,
+            "rotX": -4.10150278E-05,
+            "rotY": 179.9912,
+            "rotZ": -0.0007610343,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Crossfire",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 11215,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "112": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630464781/78F980C4FBBF2DC6E19D561D4B8414794D30A0E2/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "f108f8"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -7.04879,
+            "posY": 1.08394849,
+            "posZ": 13.6247053,
+            "rotX": 0.00137014536,
+            "rotY": 179.9912,
+            "rotZ": -0.00100687728,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Ricochet",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 11243,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "112": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630464781/78F980C4FBBF2DC6E19D561D4B8414794D30A0E2/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "fd4627"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -7.00600863,
+            "posY": 1.09357452,
+            "posZ": 13.5703,
+            "rotX": -0.00118585059,
+            "rotY": 179.9912,
+            "rotZ": -0.0007331693,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Reaction Fire",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 11242,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "112": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630464781/78F980C4FBBF2DC6E19D561D4B8414794D30A0E2/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "6e6f96"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.65209961,
+            "posY": 1.10322309,
+            "posZ": 13.8834438,
+            "rotX": 0.0006024688,
+            "rotY": 179.9912,
+            "rotZ": -0.0008191124,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Adrenaline Surge",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 11405,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "114": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630464781/78F980C4FBBF2DC6E19D561D4B8414794D30A0E2/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "558b51"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.97562361,
+            "posY": 1.11283052,
+            "posZ": 13.3653584,
+            "rotX": -0.00108780013,
+            "rotY": 180.0,
+            "rotZ": -0.000662426231,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Wrong Again",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 7308,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "73": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630465345/15CE39D1933E6961EF6C4E31757827696F39641B/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "9c459d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.76873636,
+            "posY": 1.12244856,
+            "posZ": 13.0068884,
+            "rotX": 0.00133863871,
+            "rotY": 179.9913,
+            "rotZ": -0.001987627,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Lucky Find",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 11233,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "112": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630464781/78F980C4FBBF2DC6E19D561D4B8414794D30A0E2/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "e3c21c"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.59028,
+            "posY": 1.13212752,
+            "posZ": 13.4736853,
+            "rotX": -8.23204537E-05,
+            "rotY": 179.9913,
+            "rotZ": -0.00059653,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Seize the Initiative",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 11246,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "112": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630464781/78F980C4FBBF2DC6E19D561D4B8414794D30A0E2/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "59ddee"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.94932032,
+            "posY": 1.14171422,
+            "posZ": 13.58315,
+            "rotX": -0.001233136,
+            "rotY": 179.99231,
+            "rotZ": -0.0005451165,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Blood Surge",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 7347,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "73": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630465345/15CE39D1933E6961EF6C4E31757827696F39641B/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "da9b4b"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.955641,
+            "posY": 1.15135634,
+            "posZ": 13.8152046,
+            "rotX": 0.00100240891,
+            "rotY": 179.99231,
+            "rotZ": -0.000485290017,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Preemptive Measures",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 7327,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "73": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630465345/15CE39D1933E6961EF6C4E31757827696F39641B/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "257648"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -7.41696262,
+            "posY": 1.16097414,
+            "posZ": 13.3779,
+            "rotX": -0.000283788773,
+            "rotY": 179.9912,
+            "rotZ": -0.00161171239,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Unnerving Whispers",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 7348,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "73": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630465345/15CE39D1933E6961EF6C4E31757827696F39641B/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "9a054d"
+        },
+        {
+          "Name": "Card",
+          "Transform": {
+            "posX": -6.583732,
+            "posY": 1.17064059,
+            "posZ": 13.4635334,
+            "rotX": -6.763208E-05,
+            "rotY": 179.99231,
+            "rotZ": -0.0004928465,
+            "scaleX": 1.0,
+            "scaleY": 1.0,
+            "scaleZ": 1.0
+          },
+          "Nickname": "Blazing Fury",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 0.713235259,
+            "g": 0.713235259,
+            "b": 0.713235259
+          },
+          "Locked": false,
+          "Grid": true,
+          "Snap": true,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": true,
+          "Hands": true,
+          "CardID": 11209,
+          "SidewaysCard": false,
+          "CustomDeck": {
+            "112": {
+              "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1289668736630464781/78F980C4FBBF2DC6E19D561D4B8414794D30A0E2/",
+              "BackURL": "http://cloud-3.steamusercontent.com/ugc/1289668646585469100/6CC67B77330E696276D84C08DD7E2E8628EC3B07/",
+              "NumWidth": 9,
+              "NumHeight": 7,
+              "BackIsHidden": false,
+              "UniqueBack": false,
+              "Type": 0
+            }
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "b5e5df"
+        }
+      ],
+      "GUID": "b3b358"
+    },
+    {
+      "Name": "Custom_Board",
+      "Transform": {
+        "posX": 3.512981,
+        "posY": 3.68081117,
+        "posZ": -51.87491,
+        "rotX": -7.325579E-05,
+        "rotY": 180.019119,
+        "rotZ": -0.000110943583,
+        "scaleX": 1.39999986,
+        "scaleY": 1.39999986,
+        "scaleZ": 1.39999986
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.7867647,
+        "g": 0.7867647,
+        "b": 0.7867647
+      },
+      "Locked": true,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://cloud-3.steamusercontent.com/ugc/840335852883116836/631DB1C0B524352C5756F717F22FBC405D5CC5F9/",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 1.0
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "b896b7"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 10.525939,
+        "posY": 4.841615,
+        "posZ": -47.5959167,
+        "rotX": -7.349772E-05,
+        "rotY": 179.999908,
+        "rotZ": -0.00011009541,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Johta-Rei",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 4   [b]WS[/b]: 4+  [b]BS[/b]: 4+   [b]S[/b]: 3\n[b]T[/b]: 3      [b]W[/b]: 1       [b]I[/b]: 4+    [b]A[/b]: 1\n[b]Ld[/b]: 7+  [b]Cl[/b]: 5+ [b]Wil[/b]: 6+  [b]Int[/b]: 8+\n\n[b][0000FF]Gear[-][/b]\n1x Lasgun\n1x Hazard Suit\n",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.0999994054,
+        "b": 0.09399941
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/817810804110968027/789F3AFF690CA8D92D506D515DD4D4EE36D014ED/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/817810804110968251/D97202A38137A3E5291D53000BA0C185A4CB933F/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/817810804116971320/3D7E5A1E952E547F0C2D36A342BD83F33ECB111A/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "7f8799"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -10.1809511,
+        "posY": 4.84156656,
+        "posZ": -42.0094948,
+        "rotX": -3.36164921E-05,
+        "rotY": 195.0,
+        "rotZ": -0.000128364438,
+        "scaleX": 1.0,
+        "scaleY": 0.92,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Maxath-Ja",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 6\"  [b]WS[/b]: 3+  [b]BS[/b]: 3+   [b]S[/b]: 4\n[b]T[/b]: 4      [b]W[/b]: 2       [b]I[/b]: 3+    [b]A[/b]: 2\n[b]Ld[/b]: 3+  [b]Cl[/b]: 5+ [b]Wil[/b]: 5+  [b]Int[/b]: 4+\n[b][000080]Gear[-][/b]\n1x Power Sword\n1x Autopistol\n2x Plasma Pistol\n1x Armored undersuit\n1x Mesh Armor\n1x Third Arm\n1x Psychic Familiar\n[b][008000]Skills[-][/b]\nGunfighter\n[b][696969]Notes[-][/b]\nthese are some ganger notes",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1676995383544355266/89C8589D6033C9CA5E99DF3F47BB606D3CDE0F56/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1663483689476995500/6B679CCEC0CCD5F3B3F9D7F96D65606686201A12/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/817810804116971320/3D7E5A1E952E547F0C2D36A342BD83F33ECB111A/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "a889ba"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -10.8229437,
+        "posY": 4.84158039,
+        "posZ": -51.9308929,
+        "rotX": 0.000138553165,
+        "rotY": 180.001083,
+        "rotZ": -0.000318709062,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Oleen-Reet ",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 4   [b]WS[/b]: 4+  [b]BS[/b]: 4+   [b]S[/b]: 3\n[b]T[/b]: 3      [b]W[/b]: 1       [b]I[/b]: 4+    [b]A[/b]: 1\n[b]Ld[/b]: 7+  [b]Cl[/b]: 5+ [b]Wil[/b]: 6+  [b]Int[/b]: 8+\n\n[b][0000FF]Gear[-][/b]\n1x Lasgun\n1x Hazard Suit\n",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.856,
+        "g": 0.0999994054,
+        "b": 0.09399941
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/817810804110968027/789F3AFF690CA8D92D506D515DD4D4EE36D014ED/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/817810804110968251/D97202A38137A3E5291D53000BA0C185A4CB933F/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/817810804116971320/3D7E5A1E952E547F0C2D36A342BD83F33ECB111A/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "45f75a"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -9.63677,
+        "posY": 4.884542,
+        "posZ": -47.1905441,
+        "rotX": -0.00010330043,
+        "rotY": 149.999939,
+        "rotZ": -5.73503639E-05,
+        "scaleX": 0.625471234,
+        "scaleY": 0.8465179,
+        "scaleZ": 0.625471234
+      },
+      "Nickname": "Speaks-with-Blades",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 5   [b]WS[/b]: 3+  [b]BS[/b]: 6+   [b]S[/b]: 5\n[b]T[/b]: 4      [b]W[/b]: 2       [b]I[/b]: 5+    [b]A[/b]: 2\n[b]Ld[/b]: 9+  [b]Cl[/b]: 4+ [b]Wil[/b]: 5+  [b]Int[/b]: 10+\n\n[b][0000FF]Gear[-][/b]\n1x Fighting Knife\n1x Power Sword\n1x Mesh Armor\n\n[b][008000]Skills[-][/b]\nUnstoppable",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.9999998,
+        "g": 0.992178142,
+        "b": 0.9999998
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://paste.ee/r/HueaF",
+        "DiffuseURL": "http://i.imgur.com/VMYTYFw.png",
+        "NormalURL": "http://i.imgur.com/EocrjzD.png",
+        "ColliderURL": "https://paste.ee/r/HueaF",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "44476b",
+      "ChildObjects": [
+        {
+          "Name": "Custom_Model",
+          "Transform": {
+            "posX": 0.0344220363,
+            "posY": -0.0108163068,
+            "posZ": -0.0356656276,
+            "rotX": -1.21442417E-05,
+            "rotY": 10.2826624,
+            "rotZ": 1.77167419E-06,
+            "scaleX": 1.598794,
+            "scaleY": 1.049163,
+            "scaleZ": 1.598794
+          },
+          "Nickname": "Bounty Hunter",
+          "Description": "",
+          "GMNotes": "",
+          "ColorDiffuse": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "Locked": true,
+          "Grid": false,
+          "Snap": false,
+          "IgnoreFoW": false,
+          "MeasureMovement": false,
+          "DragSelectable": true,
+          "Autoraise": true,
+          "Sticky": true,
+          "Tooltip": true,
+          "GridProjection": false,
+          "HideWhenFaceDown": false,
+          "Hands": false,
+          "CustomMesh": {
+            "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1770445155921392812/34D2C950D5305181988E0BE163991B116FDCB0ED/",
+            "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1770445155921393329/DB1DBCBD4BDDF4A9C7FF968E5A640E645058E7DE/",
+            "NormalURL": "",
+            "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/817810804116971320/3D7E5A1E952E547F0C2D36A342BD83F33ECB111A/",
+            "Convex": true,
+            "MaterialIndex": 3,
+            "TypeIndex": 1,
+            "CustomShader": {
+              "SpecularColor": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0
+              },
+              "SpecularIntensity": 0.0,
+              "SpecularSharpness": 2.0,
+              "FresnelStrength": 0.0
+            },
+            "CastShadows": true
+          },
+          "LuaScript": "",
+          "LuaScriptState": "",
+          "XmlUI": "",
+          "GUID": "877a16"
+        }
+      ]
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -4.321358,
+        "posY": 4.8415947,
+        "posZ": -52.2009659,
+        "rotX": -0.000816044,
+        "rotY": 179.9987,
+        "rotZ": -0.0005035953,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "New Guy",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 4   [b]WS[/b]: 4+  [b]BS[/b]: 4+   [b]S[/b]: 3\n[b]T[/b]: 3      [b]W[/b]: 1       [b]I[/b]: 4+    [b]A[/b]: 1\n[b]Ld[/b]: 7+  [b]Cl[/b]: 5+ [b]Wil[/b]: 6+  [b]Int[/b]: 8+\n\n[b][0000FF]Gear[-][/b]\n1x Autogun\n1x Hazard Suit\n",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1770445255786358371/8A9D9A0CBBDF0B2B59D23A94C78EDFBC785EEBC3/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1770445255786358711/2975ED39507FA00ADCD06FF1213166621AB1D899/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/817810804116971320/3D7E5A1E952E547F0C2D36A342BD83F33ECB111A/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "e415fb"
+    },
+    {
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": 17.0933437,
+        "posY": 4.841619,
+        "posZ": -41.7956619,
+        "rotX": -6.716243E-05,
+        "rotY": 179.968582,
+        "rotZ": -0.000108041851,
+        "scaleX": 1.0,
+        "scaleY": 0.92,
+        "scaleZ": 1.0
+      },
+      "Nickname": "Desh-Tul",
+      "Description": "[b][FF0000]Stats[-][/b]\n[b]M[/b]: 4   [b]WS[/b]: 3+  [b]BS[/b]: 3+   [b]S[/b]: 4\n[b]T[/b]: 3      [b]W[/b]: 1       [b]I[/b]: 3+    [b]A[/b]: 1\n[b]Ld[/b]: 4+  [b]Cl[/b]: 5+ [b]Wil[/b]: 7+  [b]Int[/b]: 6+\n\n[b][0000FF]Gear[-][/b]\n1x Mesh Armor\n1x Third Arm\n1x Long Las\n\n[b][008000]Skills[-][/b]\nInfiltrate",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": false,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "http://cloud-3.steamusercontent.com/ugc/1770445441528479782/9FD4F4F5C55C8BE0CBC83A9B80E6D96860EDEDBF/",
+        "DiffuseURL": "http://cloud-3.steamusercontent.com/ugc/1770445441528480414/43EFBA8DA1A54B831A6FBF125D996732520E24E9/",
+        "NormalURL": "",
+        "ColliderURL": "http://cloud-3.steamusercontent.com/ugc/817810804116971320/3D7E5A1E952E547F0C2D36A342BD83F33ECB111A/",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 1.0,
+            "g": 1.0,
+            "b": 1.0
+          },
+          "SpecularIntensity": 0.0,
+          "SpecularSharpness": 2.0,
+          "FresnelStrength": 0.0
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "6d21d8"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 7.2733736,
+        "posY": 4.91161728,
+        "posZ": -54.14868,
+        "rotX": 6.110539E-05,
+        "rotY": -0.004629269,
+        "rotZ": 9.23724147E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "[u][b][ff0000]Inspirational[-][/b][/u]\n\nIn the pre-battle sequence a gang can declare they are\r\nusing their Propagandist to spread word of their impending victory. If they win the game then they gain an extra D3\r\nReputation. If they lose the game, they must reduce their Reputation by an additional 1.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "9b3f1c"
+    },
+    {
+      "Name": "Notecard",
+      "Transform": {
+        "posX": 14.697567,
+        "posY": 4.91163254,
+        "posZ": -54.17848,
+        "rotX": 7.50010149E-05,
+        "rotY": -0.0008185772,
+        "rotZ": 0.000110445879,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "[u][b][ff0000]Toll Crossing[-][/b][/u]\n\nWhilst it controls this Territory, an Orlock gang has Priority in the first round of any battle.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "da5671"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -10.1632557,
+        "posY": 4.94157,
+        "posZ": -44.22862,
+        "rotX": -7.67083E-05,
+        "rotY": 179.9861,
+        "rotZ": -0.000111302674,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=1&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "8b37da"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -4.99481249,
+        "posY": 4.9415803,
+        "posZ": -44.46967,
+        "rotX": -7.29208E-05,
+        "rotY": 179.9686,
+        "rotZ": -0.000109840061,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=2&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "870c52"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.7225066,
+        "posY": 4.94159174,
+        "posZ": -44.6872444,
+        "rotX": -7.772055E-05,
+        "rotY": 179.978836,
+        "rotZ": -0.000110563495,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=3&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "39ed0a"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 6.3582263,
+        "posY": 4.94160271,
+        "posZ": -44.8275948,
+        "rotX": -7.497521E-05,
+        "rotY": 180.010376,
+        "rotZ": -0.000110465029,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=4&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "746799"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -9.848196,
+        "posY": 5.023082,
+        "posZ": -49.98023,
+        "rotX": 357.014832,
+        "rotY": 179.992325,
+        "rotZ": -0.000114678245,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=6&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "7c6321"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.6003997,
+        "posY": 4.94159937,
+        "posZ": -50.241684,
+        "rotX": -7.740155E-05,
+        "rotY": 179.979126,
+        "rotZ": -0.000110482615,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=8&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "f5d34e"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 5.859794,
+        "posY": 4.94161,
+        "posZ": -50.4089279,
+        "rotX": -8.303168E-05,
+        "rotY": 180.004379,
+        "rotZ": -0.000110820554,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=9&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "f1858b"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 10.9306459,
+        "posY": 5.011499,
+        "posZ": -50.5121574,
+        "rotX": 357.441437,
+        "rotY": 179.945862,
+        "rotZ": -7.615485E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=10&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "502db2"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 16.2476,
+        "posY": 4.94163,
+        "posZ": -50.38389,
+        "rotX": -7.696796E-05,
+        "rotY": 180.011215,
+        "rotZ": -0.000111238063,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=11&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "743016"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -10.6298151,
+        "posY": 4.94158459,
+        "posZ": -54.98662,
+        "rotX": -7.595087E-05,
+        "rotY": 180.012756,
+        "rotZ": -0.000111705071,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=12&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "a08971"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -4.772103,
+        "posY": 4.941596,
+        "posZ": -55.0534134,
+        "rotX": -7.476082E-05,
+        "rotY": 180.083984,
+        "rotZ": -0.000111020643,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=13&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "5ffbb0"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 0.402547032,
+        "posY": 4.941606,
+        "posZ": -54.85645,
+        "rotX": -7.91284E-05,
+        "rotY": 180.006119,
+        "rotZ": -0.000110917921,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=14&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "ec9c4d"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 10.9934549,
+        "posY": 4.941612,
+        "posZ": -45.0676,
+        "rotX": -7.676674E-05,
+        "rotY": 179.954956,
+        "rotZ": -0.000111117253,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=15&version=87397",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "344965"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": 16.676033,
+        "posY": 4.94162273,
+        "posZ": -44.90484,
+        "rotX": -7.214132E-05,
+        "rotY": 180.019409,
+        "rotZ": -0.000110600282,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=5&version=61757",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "563417"
+    },
+    {
+      "Name": "Custom_Token",
+      "Transform": {
+        "posX": -4.517038,
+        "posY": 5.02424955,
+        "posZ": -50.29384,
+        "rotX": 356.972534,
+        "rotY": 180.140839,
+        "rotZ": -9.072209E-05,
+        "scaleX": 1.0,
+        "scaleY": 1.0,
+        "scaleZ": 1.0
+      },
+      "Nickname": "",
+      "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0
+      },
+      "Locked": false,
+      "Grid": true,
+      "Snap": true,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "HideWhenFaceDown": false,
+      "Hands": false,
+      "CustomImage": {
+        "ImageURL": "http://convert.itcloud.co.nz/cards_n.php?gang=157849&number=7&version=61757",
+        "ImageSecondaryURL": "",
+        "ImageScalar": 1.0,
+        "WidthScale": 0.0,
+        "CustomToken": {
+          "Thickness": 0.2,
+          "MergeDistancePixels": 15.0,
+          "StandUp": false,
+          "Stackable": false
+        }
+      },
+      "LuaScript": "function onPickUp()\nurl = self.getCustomObject().image\nversion = url:gsub('{(.*)}', url)\nlocal i = 1\r\nlocal versions = {}\r\nfor version in string.gmatch(url, '{(.*)}') do\r\nversions[i] = version\r\n    i = i + 1\r\nend\r\n\r\nversion = (versions[1])\nversion = (math.random(1,100000))\nversion = \"{\" .. version .. \"}\"\n\nurl = string.gsub(url, '{(.*)}', version)\n\nself.setCustomObject({image = url})\r\n\nend\n",
+      "LuaScriptState": "",
+      "XmlUI": "",
+      "GUID": "9861c4"
+    }
+  ],
+  "LuaScript": "--[[ Lua code. See documentation: http://berserk-games.com/knowledgebase/scripting/ --]]\n\n--[[ The OnLoad function. This is called after everything in the game save finishes loading.\nMost of your script code goes here. --]]\nfunction onload()\n    --[[ print('Onload!') --]]\nend\n\n--[[ The Update function. This is called once per frame. --]]\nfunction update ()\n    --[[ print('Update loop!') --]]\nend",
+  "LuaScriptState": "",
+  "XmlUI": "<!-- Xml UI. See documentation: https://api.tabletopsimulator.com/ui/introUI/ -->",
+  "VersionNumber": "v12.4.3"
+}
