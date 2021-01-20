@@ -16,7 +16,7 @@ enum Color {
   Purple = '800080',
   Green = '008000',
   Lime = '00FF00',
-  Blue = '0000FF',
+  Blue = '000080',
   DarkGray = '696969',
   LightGray = 'D3D3D3',
 }

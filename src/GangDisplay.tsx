@@ -14,10 +14,8 @@ import {
   Select,
   MenuItem,
   ListItemText,
-  ListItemIcon,
   Grid,
 } from '@material-ui/core';
-import { Close } from '@material-ui/icons';
 import { Instance } from 'mobx-state-tree';
 import React, { useState } from 'react';
 import GangerDisplay from './GangerDisplay';
@@ -45,11 +43,17 @@ const GangDisplay = ({ gang }: GangDisplayProps) => {
           onChange={(e) => setSelectedGanger(Number(e.target.value))}
           variant="outlined"
         >
-          {gang.gangers.map((ganger: Instance<typeof Ganger>, idx: number) =>
-                <MenuItem value={idx} key={ganger.ganger_id} divider>
-                  <ListItemText primary={ganger.displayName} secondary={ganger.status === "Alive" ? "" : ganger.status} secondaryTypographyProps={ganger.status === "Dead" ? {color: "secondary"} : {}} />
-                </MenuItem>
-          )}
+          {gang.gangers.map((ganger: Instance<typeof Ganger>, idx: number) => (
+            <MenuItem value={idx} key={ganger.ganger_id} divider>
+              <ListItemText
+                primary={ganger.displayName}
+                secondary={ganger.isAlive ? '' : ganger.status}
+                secondaryTypographyProps={
+                  ganger.isDead ? { color: 'secondary' } : {}
+                }
+              />
+            </MenuItem>
+          ))}
         </Select>
       </FormControl>
     );

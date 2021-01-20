@@ -49,9 +49,13 @@ const Ganger = types
       return `${self.name} - ${self.type}`;
     },
     get isDead() {
-      console.log(self.status);
-
       return self.status === 'Dead';
+    },
+    get isAlive() {
+      return self.status === 'Alive';
+    },
+    get isInRecovery() {
+      return self.status === 'Recovery';
     },
     get bbcode() {
       let formattedString = bolded(colored('Stats', Color.Red));
@@ -67,22 +71,30 @@ const Ganger = types
       formattedString += `${bolded('Ld')}: ${self.ld}+  `;
       formattedString += `${bolded('Cl')}: ${self.cl}+ `;
       formattedString += `${bolded('Wil')}: ${self.wil}+  `;
-      formattedString += `${bolded('Int')}: ${self.int}+\n`;
+      formattedString += `${bolded('Int')}: ${self.int}+`;
 
       if (self.equipment && self.equipment.length > 0) {
         formattedString += '\n';
         formattedString += bolded(colored('Gear', Color.Blue));
         formattedString += '\n';
-        self.equipment.forEach((eq) => {
-          formattedString += `${eq.qty}x ${eq.name}\n`;
-        });
+        const equipList = self.equipment.map(
+          (equip) => `${equip.qty}x ${equip.name}`
+        );
+        formattedString += equipList.join('\n');
       }
 
       if (self.skills && self.skills.length > 0) {
         formattedString += '\n';
         formattedString += bolded(colored('Skills', Color.Green));
         formattedString += '\n';
-        formattedString += `${self.skills.join('\n')}`;
+        formattedString += self.skills.join('\n');
+      }
+
+      if (self.notes && self.notes.length > 0) {
+        formattedString += '\n';
+        formattedString += bolded(colored('Notes', Color.DarkGray));
+        formattedString += '\n';
+        formattedString += self.notes;
       }
 
       return formattedString;
