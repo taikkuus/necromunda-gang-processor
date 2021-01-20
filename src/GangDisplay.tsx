@@ -45,25 +45,11 @@ const GangDisplay = ({ gang }: GangDisplayProps) => {
           onChange={(e) => setSelectedGanger(Number(e.target.value))}
           variant="outlined"
         >
-          {gang.gangers.map((ganger: Instance<typeof Ganger>, idx: number) => {
-            if (ganger.isDead) {
-              return (
+          {gang.gangers.map((ganger: Instance<typeof Ganger>, idx: number) =>
                 <MenuItem value={idx} key={ganger.ganger_id} divider>
-                  <ListItemText primary={ganger.displayName} secondary="Dead" />
+                  <ListItemText primary={ganger.displayName} secondary={ganger.status === "Alive" ? "" : ganger.status} secondaryTypographyProps={ganger.status === "Dead" ? {color: "secondary"} : {}} />
                 </MenuItem>
-              );
-            }
-            return (
-              <MenuItem value={idx} key={ganger.ganger_id} divider>
-                <ListItemText primary={ganger.displayName} />
-                {ganger.isDead && (
-                  <ListItemIcon>
-                    <Close />
-                  </ListItemIcon>
-                )}
-              </MenuItem>
-            );
-          })}
+          )}
         </Select>
       </FormControl>
     );

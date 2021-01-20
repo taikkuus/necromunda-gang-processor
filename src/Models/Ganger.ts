@@ -49,22 +49,24 @@ const Ganger = types
       return `${self.name} - ${self.type}`;
     },
     get isDead() {
+      console.log(self.status);
+
       return self.status === 'Dead';
     },
     get bbcode() {
       let formattedString = bolded(colored('Stats', Color.Red));
       formattedString += '\n';
-      formattedString += `${bolded('M')}: ${self.m}\t`;
-      formattedString += `${bolded('WS')}: ${self.ws}+\t`;
-      formattedString += `${bolded('BS')}: ${self.bs}+\t`;
+      formattedString += `${bolded('M')}: ${self.m}"  `;
+      formattedString += `${bolded('WS')}: ${self.ws}+  `;
+      formattedString += `${bolded('BS')}: ${self.bs}+   `;
       formattedString += `${bolded('S')}: ${self.s}\n`;
-      formattedString += `${bolded('T')}: ${self.t}\t`;
-      formattedString += `${bolded('W')}: ${self.w}\t`;
-      formattedString += `${bolded('I')}: ${self.i}+\t`;
+      formattedString += `${bolded('T')}: ${self.t}      `;
+      formattedString += `${bolded('W')}: ${self.w}       `;
+      formattedString += `${bolded('I')}: ${self.i}+    `;
       formattedString += `${bolded('A')}: ${self.a}\n`;
-      formattedString += `${bolded('Ld')}: ${self.ld}+\t`;
-      formattedString += `${bolded('Cl')}: ${self.cl}+\t`;
-      formattedString += `${bolded('Wil')}: ${self.wil}+\t`;
+      formattedString += `${bolded('Ld')}: ${self.ld}+  `;
+      formattedString += `${bolded('Cl')}: ${self.cl}+ `;
+      formattedString += `${bolded('Wil')}: ${self.wil}+  `;
       formattedString += `${bolded('Int')}: ${self.int}+\n`;
 
       if (self.equipment && self.equipment.length > 0) {
@@ -79,7 +81,8 @@ const Ganger = types
       if (self.skills && self.skills.length > 0) {
         formattedString += '\n';
         formattedString += bolded(colored('Skills', Color.Green));
-        formattedString += `: ${self.skills.join(', ')}`;
+        formattedString += '\n';
+        formattedString += `${self.skills.join('\n')}`;
       }
 
       return formattedString;
