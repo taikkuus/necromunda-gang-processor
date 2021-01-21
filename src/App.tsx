@@ -26,8 +26,8 @@ const Hello = () => {
   const [showGanger, setShowGanger] = useState(false);
 
   const getGang = async () => {
-    // await fetch(`https://yaktribe.games/underhive/json/gang/${gangId}.json`, {
-    await fetch('./Models/157849.json', {
+    await fetch(`https://yaktribe.games/underhive/json/gang/${gangId}.json`, {
+    // await fetch('./Models/157849.json', {
       headers: {
         'Content-Type': 'application/json',
       },
@@ -83,7 +83,11 @@ const Hello = () => {
     });
 
     writeFile(fileLocation, JSON.stringify(saveFile), 'utf8', (err) => {
-      if (err) console.error(err);
+      if (err) {
+        alert(err)
+      } else {
+        alert("Updated file successfully")
+      }
     });
   };
 
